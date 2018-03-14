@@ -1,1 +1,15 @@
 @charset "utf-8";
+
+header {
+  background-color: cadetblue;
+  padding: 20px;
+}
+
+main {
+
+}
+
+footer {
+  background-color: aquamarine;
+  padding: 20px;
+}
