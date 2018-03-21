@@ -1,15 +1,189 @@
-@charset "utf-8";
+/**
+ * @project        wspprojectskeleton
+ * @author         Ben Rudolph, WSP <benjamin.rudolph@wsp.com>
+ * @build          Wed, Mar 21, 2018 4:40 PM ET
+ *
+ */
+@-webkit-keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-10rem);
+            transform: translateX(-10rem); }
+  80% {
+    -webkit-transform: translateX(1rem);
+            transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0); } }
 
-header {
-  background-color: cadetblue;
-  padding: 20px;
-}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-10rem);
+            transform: translateX(-10rem); }
+  80% {
+    -webkit-transform: translateX(1rem);
+            transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0); } }
 
-main {
+@-webkit-keyframes moveInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(10rem);
+            transform: translateX(10rem); }
+  80% {
+    -webkit-transform: translateX(-1rem);
+            transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0); } }
 
-}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(10rem);
+            transform: translateX(10rem); }
+  80% {
+    -webkit-transform: translateX(-1rem);
+            transform: translateX(-1rem); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0); } }
 
-footer {
-  background-color: aquamarine;
-  padding: 20px;
-}
+@-webkit-keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0); } }
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(5rem);
+            transform: translateY(5rem); }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate(0);
+            transform: translate(0); } }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit; }
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 1400px) {
+    html {
+      font-size: 50%; } }
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #fff; }
+
+img {
+  width: auto;
+  height: auto;
+  max-width: 100%; }
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 2.5rem;
+  font-size: 1.6rem;
+  color: #000; }
+
+h1, h2, h3, h4, dt {
+  font-family: "Nunito", sans-serif; }
+
+h1 {
+  font-weight: 700;
+  font-size: 4rem;
+  margin: 10rem 0 5rem 0;
+  color: #000; }
+
+h2 {
+  font-weight: 800;
+  font-size: 4rem;
+  line-height: 4rem;
+  margin: 2rem 0 3rem 0;
+  color: #5adbff; }
+
+h3 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  margin: 2rem 0 3rem 0;
+  color: #5adbff; }
+
+h4 {
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  color: #ffd166; }
+
+h5, h6 {
+  font-size: 1.2rem; }
+
+p {
+  margin-bottom: 2.6rem; }
+
+ul {
+  margin-bottom: 2rem; }
+
+li {
+  margin: 0rem 0rem 1.5rem 0; }
+
+dt {
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #ffd166;
+  margin: 2rem 0rem 1rem 0rem; }
+
+dd {
+  margin-bottom: 4rem; }
+
+a {
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in; }
+
+a:link {
+  text-decoration: none;
+  color: #2e97ac; }
+
+a:hover {
+  text-decoration: underline;
+  color: #2e97ac; }
+
+
+
+/*# sourceMappingURL=main.css.map */
