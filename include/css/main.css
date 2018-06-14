@@ -173,14 +173,11 @@ figcaption span {
     width: 100%;
     height: auto; }
   .img-in-copy.right {
-    margin: 8px 0 16px 24px;
+    margin: 8px 0 16px 0;
     float: right; }
   .img-in-copy.left {
-    margin: 8px 24px 16px 0;
+    margin: 8px 0 16px 0;
     float: left; }
-
-.img-in-copy:not(.wide) {
-  max-width: 240px; }
 
 .img-wrapper {
   position: relative; }
@@ -217,20 +214,20 @@ body {
   color: #2f4858; }
 
 h1, h2, h3, h4, dt {
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin: 2rem 0rem; }
 
 h1 {
   font-weight: 700;
-  font-size: 4rem;
+  font-size: 5rem;
   line-height: 4rem;
-  color: black; }
+  color: #094074; }
 
 h2 {
   font-weight: 800;
   font-size: 4rem;
   line-height: 4rem;
-  color: #5adbff; }
+  color: #336699; }
 
 h3 {
   font-weight: 800;
@@ -275,6 +272,11 @@ a:active {
   text-decoration: none;
   color: #336699; }
 
+.emphasis {
+  font-weight: bold;
+  color: #ea0d2a;
+  text-transform: uppercase; }
+
 /*=====  End of Typography Styles  ======*/
 /*=============================================
 =            Button Styles            =
@@ -313,24 +315,56 @@ a:active {
 =============================================*/
 #footer {
   background-color: #9ee493;
-  color: #daf7dc;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly; }
+  color: #094074;
+  padding: 22px 20px; }
+  #footer .footer-nav {
+    padding: 0 0 1rem 0;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%; }
+  #footer .footer-nav ul {
+    list-style: none; }
+  #footer .footer-nav ul li {
+    padding: 2px 0;
+    text-align: center; }
+  #footer .footer-nav ul li a {
+    font-weight: 400;
+    display: block;
+    background-color: rgba(218, 247, 220, 0.5);
+    padding: 1rem;
+    color: #094074; }
+  #footer .footer-logos {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 100%;
+            flex: 0 1 100%;
+    margin: 2rem 0;
+    text-align: center; }
+  #footer .footer-logos a {
+    font-size: 0;
+    color: transparent; }
+  #footer .footer-logos img {
+    max-width: 125px; }
+  #footer .copyright {
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.4; }
+  #footer .copyright a {
+    display: block;
+    color: #094074; }
+  #footer .copy a:hover {
+    text-decoration: underline; }
 
 /*=====  End of Footer Styles  ======*/
 /*=============================================
 =            Content Styles            =
 =============================================*/
 #mainContent {
-  -webkit-box-align: space-evenly;
-      -ms-flex-align: space-evenly;
-          align-items: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
   max-width: 100rem;
-  margin: 0 auto;
+  margin: 6rem 1.5rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -338,13 +372,12 @@ a:active {
       flex-wrap: wrap; }
   #mainContent .main-content {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 75%;
-            flex: 1 1 75%;
-    padding-right: 8rem; }
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%; }
   #mainContent aside {
-    -webkit-box-flex: 0;
-        -ms-flex: 0 1 25%;
-            flex: 0 1 25%; }
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 100%;
+            flex: 1 1 100%; }
   #mainContent aside.right {
     -webkit-box-ordinal-group: 2;
         -ms-flex-order: 1;
@@ -409,10 +442,8 @@ header {
   -webkit-box-shadow: 0px 2px 6px 0px rgba(47, 72, 88, 0.2);
   box-shadow: 0px 2px 6px 0px rgba(47, 72, 88, 0.2);
   z-index: 100; }
-  .main-nav ul li {
-    display: inline-block; }
-    .main-nav ul li a:link {
-      display: block; }
+  .main-nav ul li a:link {
+    display: block; }
 
 .main-nav .dropdown {
   display: none; }
