@@ -6,12 +6,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>WSP Project Skeleton</title>
-  <link rel="stylesheet" media="screen" href="/project-skeleton/include/css/vendor.css" type="text/css" />
-  <link rel="stylesheet" media="screen" href="/project-skeleton/include/css/main.css" type="text/css" />
-  <link rel="stylesheet" media="screen" href="/project-skeleton/include/css/media_queries.css" type="text/css" />
+  <link rel="stylesheet" media="screen" href="/include/css/vendor.css" type="text/css" />
+  <link rel="stylesheet" media="screen" href="/include/css/main.css" type="text/css" />
+  <link rel="stylesheet" media="screen" href="/include/css/media_queries.css" type="text/css" />
   <!-- <link rel="stylesheet" media="print" href="/include/css/print.css" type="text/css" /> -->
   <link href="https://fonts.googleapis.com/css?family=Nunito:400,700,800|Roboto|Material+Icons" rel="stylesheet">
-  <script type="text/javascript" src="/project-skeleton/include/js/library.min.js"></script>
+  <script type="text/javascript" src="/include/js/library.min.js"></script>
+  <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
 </head>
 
 <body id="home">
@@ -20,7 +23,7 @@
     <a href="#mainContent" class="skip-nav">Skip to content</a>
     <div class="logo-wrapper">
       <a href="/">
-        <img src="/project-skeleton/images/img-png-wsp-black.png" alt="" class="logo">
+        <img src="/images/img-png-wsp-black.png" alt="" class="logo">
       </a>
     </div>
     <button id="mobileBtn" role="button" aria-expanded="false" type="button" aria-controls="mainNav" class="mobile-button">
@@ -60,7 +63,7 @@
                 <span>Search</span>
                 <input id="search" type="search" name="q" aria-label="Search this site for content">
               </label>
-              <img src="/project-skeleton/images/search_icon.svg" alt="Search">
+              <img src="/images/search_icon.svg" alt="Search">
             </form>
           </li>
         </ul>
@@ -189,7 +192,7 @@
       </nav>
       <div class="footer-logos" >
         <a href="/" target="_blank" >
-          <img src="/project-skeleton/images/img-png-wsp-black.png" alt="Logo" >
+          <img src="/images/img-png-wsp-black.png" alt="Logo" >
           Footer Logo
         </a>
       </div>

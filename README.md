@@ -2,7 +2,8 @@
 A WSP project skeleton for starting a project build.
 
 Installation:
-
+*UPDATED 6/20/18*
+This version is to be used reviewed via BrowserSync (node, npm and Gulp required) or update local paths manually
 1. Download if you'll be starting a new build
   + If you are wanting to help contribute to the project then please [fork](https://help.github.com/articles/fork-a-repo/) and create a pull request for your proposed changes.
   + Please follow the [contributing guidelines](https://github.com/WSP-Denver/project-skeleton/blob/master/CONTRIBUTING.md)
