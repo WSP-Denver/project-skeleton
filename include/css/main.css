@@ -314,7 +314,7 @@ a:active {
 =            Footer Styles            =
 =============================================*/
 #footer {
-  background-color: #9ee493;
+  background-color: #dedede;
   color: #094074;
   padding: 22px 20px; }
   #footer .footer-nav {
@@ -325,14 +325,17 @@ a:active {
   #footer .footer-nav ul {
     list-style: none; }
   #footer .footer-nav ul li {
+    margin: 0 0 16px 0;
     padding: 2px 0;
     text-align: center; }
   #footer .footer-nav ul li a {
     font-weight: 400;
     display: block;
-    background-color: rgba(218, 247, 220, 0.5);
+    background-color: #transparent;
     padding: 1rem;
-    color: #094074; }
+    color: #094074;
+    border: 2px solid #cacaca;
+  }
   #footer .footer-logos {
     -webkit-box-flex: 0;
         -ms-flex: 0 1 100%;
@@ -392,8 +395,9 @@ a:active {
 =            Header Styles            =
 =============================================*/
 header {
-  background: -webkit-gradient(linear, left top, right top, from(#5adbff), to(#daf7dc));
-  background: linear-gradient(90deg, #5adbff, #daf7dc);
+  /* background: -webkit-gradient(linear, left top, right top, from(#5adbff), to(#daf7dc)); */
+  /* background: linear-gradient(90deg, #5adbff, #daf7dc); */
+  background-color: #fff;
   color: #daf7dc;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -556,7 +560,3 @@ header .mobile-button.spin span:nth-of-type(3) {
   transform: translate(68%, 125%) rotateZ(-45deg); }
 
 /*=====  End of Navigation Styles  ======*/
-
-
-
-/*# sourceMappingURL=main.css.map */
