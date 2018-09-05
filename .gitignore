@@ -10,3 +10,6 @@ gulpfile.js
 /src
 /build
 /from_art
+
+# Visual Studio Code files
+*.code-workspace
